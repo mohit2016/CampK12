@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top:50px;
+}
+header{
+    height: 100vh;
+    background: url("img/banner.png");
+}
+.intro{
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+    font-family: 'OpenSansLight';
+}
+#iimb-button{
+    transform: translate(0px,-10px);
+    width: 175px;height: 53px;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.section-one{
+    background: rgb(247, 247, 247);
+    padding: 100px 0px;
+    text-align: center;
+}
+.section-one h3{
+    font-weight: 600;
+}
+.section-one p{
+    padding: 20px 10vh;
+    font-size: 2.4vh;
+    color: rgb(94, 93, 93);
+}
+.section-one iframe{
+    margin-top: 30px;
+    height: 400px;
+    width: 600px;
+}
+
+.section-two{
+    width:98%;
+    padding: 100px 0px;
+}
+.col-sm-6 iframe{
+    text-align: center;
+    height: 300px;
+    width: 500px;
+}
+.col-sm-6 h3{
+    font-weight: 600;
+}
+.col-sm-6 p{
+    color: rgb(100, 98, 98);
+    font-size: 2.8vh;
+    padding: 30px 70px 30px 0;
+    line-height: 5vh;
+}
+.col-sm-6 a{
+    background: rgb(20, 175, 165);
+    padding: 15px 40px;
+    color:white;
+    border-radius: 10px;
+    font-size: 2.2vh;
+    font-weight: bold;
+    letter-spacing: 0.3vh;
+    text-decoration: none;
+}
+.col-sm-6 a:hover{
+    background: rgb(41, 228, 215);
+}
+
+
+.section-three{
+    padding: 100px 100px;
+    background: rgb(247, 247, 247);
+}
+
+.section-four{
+    padding: 100px 100px;
+}
+
+.section-five{
+    padding: 100px 100px;
+    background: rgb(247, 247, 247);
+}
+.section-five .row .col-sm-6 p{
+    line-height: 3.7vh;
+    color:grey;
+    font-size: 2.5vh;
+}
+
+
+.section-six{
+    padding: 100px 100px;
+}
+
+.blockquote{
+    background: #2fabd0;
+    color: white;
+    border-radius: 10px;
+}
+#text{
+    text-align: justify;
+    font-size: 2.4vh;
+    line-height: 4vh;
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+}
+.blockquote p img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; 
+    float: left;
+}
+
+
+
+
+.testimonial{
+    background-image: url("img/TestimonialBackground-1024x2772.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.testimonial-overlay{
+    background-color: rgba(31,31,31,0.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.carousel-indicators{
+    bottom: -10px;
+}
+
+.testimonial-caption{
+   padding-bottom:70px;  
+}
+.testimonial-caption p{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+}
+#author{
+    font-size: 18px;
+    color: rgb(173, 167, 167);
+}
+
+
+
+.footer{
+    background-color: rgb(27, 27, 27);;
+    color: white;
+    width: 100%;
+  }
+  
+  
+  .quicklinks ul{
+    list-style-type: none;
+    margin-left: 20px;
+    color: lightgrey;
+  }
+  .quicklinks ul li:before {
+    content: "\00BB \0020";
+  }
+  
+  .qtext{
+      margin-left: 100px;
+  }
+
+  .quicklinks ul li{
+    padding: 7px;
+    cursor: pointer;
+  }
+  .quicklinks ul li:hover{
+    color: skyblue;
+  }
+  
+  .details{
+      margin-left: 5%;
+  }
+  .address{
+    margin-left:100px;
+    margin-top: -40px;
+  }
+  .details span, address{
+    color: lightgray;
+  }
+  
+  .directions{
+      margin-left: -100px;
+  }
+  
+  iframe{
+    height: 250px;
+    width:400px;
+  }
+  
+  
+
+  /* MEDIA QUERIES */
+
+  @media screen and (min-width:400px) and (max-width:1047px){
+      .quicklinks , .directions , .details{
+          width: 100%;
+          text-align: center;
+          margin: 0;
+          
+      }
+      .address, .qtext{
+          margin: 0;
+      }
+
+      .section-six , .section-five, .section-four, .section-three{
+          padding: 100px 20px;
+      }
+      .blockquote{
+          width:100%;
+      }
+
+      iframe{
+          width: 100%;
+          margin-top: 10%;
+      }
+      .section-five iframe{
+        width: 100%;
+      }
+      .section-one iframe, .section-two iframe{
+          width: 90%;
+      }
+
+      .col-sm-6{
+          text-align: center;
+      }
+      .col-sm-6 a{
+          font-size: 1.8vh;
+          padding: 10px;
+      }
+      .col-sm-6 p{
+          padding-left: 20px;
+          text-align: center;
+      }
+      .col-sm-6 h3{
+          text-align: center;
+      }
+
+      header{
+          height: 110vh;
+      }
+
+      .section-three .col-sm-6{
+          margin-top: 20px;
+      }
+
+ }
